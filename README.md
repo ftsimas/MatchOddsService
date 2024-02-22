@@ -86,7 +86,7 @@ Ensure you have the required dependencies installed:
 To build and run the project, run:
 
 ```
-dotnet restore
+dotnet restore MatchOddsService
 dotnet run --project MatchOddsService
 ```
 
