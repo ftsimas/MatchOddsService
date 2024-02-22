@@ -76,7 +76,7 @@ To build and run the project, open the solution in Visual Studio and run the "Co
 
 The service should be available at http://localhost:8001.
 
-### Build & Run (Manual)
+### Build & Run (Native)
 
 Ensure you have the required dependencies installed:
 
