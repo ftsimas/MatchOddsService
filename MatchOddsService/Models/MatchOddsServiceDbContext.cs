@@ -1,6 +1,5 @@
 ﻿using MatchOddsService.Models.Entities;
 using Microsoft.EntityFrameworkCore;
-using System.Reflection.Metadata;
 
 namespace MatchOddsService.Models
 {

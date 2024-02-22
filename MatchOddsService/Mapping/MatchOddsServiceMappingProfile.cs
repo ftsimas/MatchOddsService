@@ -1,10 +1,10 @@
 ﻿using AutoMapper;
+using MatchOddsService.Enums;
+using MatchOddsService.Helpers;
 using MatchOddsService.Models.DTOs;
 using MatchOddsService.Models.Entities;
 using System;
 using System.Globalization;
-using MatchOddsService.Enums;
-using MatchOddsService.Helpers;
 
 namespace MatchOddsService.Mapping
 {
