@@ -69,7 +69,7 @@ The design / implementation document has been implemented as a Swagger document 
 Ensure you have the required dependencies installed:
 
 * Visual Studio *(latest version preferred)*
-* .NET Core 3.1 Runtime
+* .NET Core 3.1 SDK
 * MS SQL Server *(latest version preferred)*
 
 To build and run the project, open the solution in Visual Studio and run the "Container (Dockerfile)" project.
@@ -80,7 +80,7 @@ The service should be available at http://localhost:8001.
 
 Ensure you have the required dependencies installed:
 
-* .NET Core 3.1 Runtime
+* .NET Core 3.1 SDK
 * MS SQL Server *(latest version preferred)*
 
 To build and run the project, run:
