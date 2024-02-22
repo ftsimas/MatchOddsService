@@ -84,6 +84,10 @@ Ensure you have the required dependencies installed:
 * MS SQL Server *(latest version preferred)*
 
 To build and run the project, run:
-``dotnet run --project MatchOddsService``
+
+```
+dotnet restore
+dotnet run --project MatchOddsService
+```
 
 The service should be available at https://localhost:5001.
