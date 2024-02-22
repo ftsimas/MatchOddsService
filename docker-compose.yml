@@ -1,0 +1,22 @@
+version: '3.4'
+
+services:
+  sqlserverdb:
+    container_name: SqlServerContainer
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    ports:
+      - 8002:1433
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=OONgjRsgpfLjIhQMzSbeyMoAqGMWs0xY
+
+  matchoddsservice:
+    container_name: MatchOddsServiceContainer
+    image: ${DOCKER_REGISTRY-}matchoddsservice
+    ports:
+      - 8001:80 
+    build:
+      context: MatchOddsService
+      dockerfile: Dockerfile
+    depends_on:
+      - sqlserverdb
